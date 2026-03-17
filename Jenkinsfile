@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: '<your repo url>'
+                git branch: 'main', url: 'https://github.com/copilotuser100/qatip-l6.git'
             }
         }
         stage('Install Terraform') {
